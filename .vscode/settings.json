@@ -6,5 +6,6 @@
 		"typescript",
 		"typescriptreact",
 		"javascript.mjs"
-	]
+	],
+	"boxlang.debugger.moduleVersion": "1.1.1+2"
 }

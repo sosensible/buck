@@ -1,8 +1,8 @@
 {
-	"name": "boxlang-starter-electron",
+	"name": "buck-desktop-app",
 	"version": "1.0.0",
 	"type": "module",
-	"description": "A starter BoxLang application for building desktop applications with Electron",
+	"description": "A (Bu)dget (C)oaching (K)it desktop application built by SOSensible.",
 	"main": "app/electron/Main.js",
 	"scripts": {
 		"dev": "concurrently --kill-others \"vite\" \"wait-on tcp:127.0.0.1:3000 && cross-env NODE_ENV=development electron app/electron/Main.js\"",
@@ -23,7 +23,7 @@
 		"generate:icons": "node scripts/generate-icons.js"
 	},
 	"keywords": [],
-	"author": "Ortus Solutions, Corp",
+	"author": "SOSensible",
 	"dependencies": {
 		"alpinejs": "^3.14.0",
 		"bootstrap": "^5.3.0",
@@ -40,7 +40,7 @@
 		"@electron-forge/maker-zip": "^7.11.1",
 		"concurrently": "^8.2.2",
 		"cross-env": "^10.0.0",
-		"electron": "^38.0.0",
+		"electron": "^41.5.0",
 		"eslint": "^8.0.0",
 		"png-to-ico": "^2.1.8",
 		"sass": "^1.77.0",

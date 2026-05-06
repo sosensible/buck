@@ -1,34 +1,34 @@
 {
-	"name": "My BoxLang Desktop App",
-	"version": "1.0.0",
-	"author": "You",
-	"location": "forgeboxStorage",
-	"slug": "my-boxlang-app",
-	"createPackageDirectory": false,
-	"type": "projects",
-	"keywords": "",
-	"homepage": "",
-	"documentation": "",
-	"repository": {
-		"type": "",
-		"url": ""
-	},
-	"bugs": "",
-	"shortDescription": "",
-	"contributors": [],
-	"ignore": [],
-	"devDependencies": {
-		"testbox": "*",
-		"testbox-cli": "*"
-	},
-	"installPaths": {
-		"testbox": "lib/testbox"
-	},
-	"dependencies": {},
-	"scripts": {
-		"postInstall": "pathExists .env || cp .env.example .env && package set ignore=[]"
-	},
-	"testbox": {
-		"runner": "http://localhost:59700/tests/runner.cfm"
-	}
+    "name": "BuCK Desktop",
+    "version": "1.0.0",
+    "author": "You",
+    "location": "forgeboxStorage",
+    "slug": "buck-desktop-app",
+    "createPackageDirectory": false,
+    "type": "projects",
+    "keywords": "",
+    "homepage": "",
+    "documentation": "",
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "bugs": "",
+    "shortDescription": "",
+    "contributors": [],
+    "ignore": [],
+    "devDependencies": {
+        "testbox": "*",
+        "testbox-cli": "*"
+    },
+    "installPaths": {
+        "testbox": "lib/testbox/"
+    },
+    "dependencies": {},
+    "scripts": {
+        "postInstall": "pathExists .env || cp .env.example .env && package set ignore=[]"
+    },
+    "testbox": {
+        "runner": "http://localhost:59700/tests/runner.cfm"
+    }
 }

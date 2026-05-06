@@ -11,7 +11,7 @@ class {
 	 * Application Properties: Modify as you see fit!
 	 * --------------------------------------------------------------------------
 	 */
-	this.name                 = "My BoxLang Desktop Application";
+	this.name                 = "My BuCK Desktop Application";
 	this.sessionManagement    = true;
 	// Days, Hours, Minutes, Seconds
 	this.sessionTimeout       = createTimespan( 0, 1, 0, 0 );
